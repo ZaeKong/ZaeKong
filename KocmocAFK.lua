@@ -234,7 +234,7 @@ cocopad.Position = Vector3.new(-307.52117919922, 105.91863250732, 467.8679199218
 local antpart = Instance.new("Part", workspace)
 antpart.Name = "Ant Autofarm Part"
 antpart.Position = Vector3.new(96, 47, 553)
-antpart.Anchored = true
+antpart.Anchored = false
 antpart.Size = Vector3.new(128, 1, 50)
 antpart.Transparency = 1
 antpart.CanCollide = false
@@ -310,7 +310,7 @@ getgenv().kocmoc = {
         enablestatuspanel = false,
     },
     vars = {
-        field = "Pine Tree Forest",
+        field = "Bamboo Field",
         convertat = 100,
         farmspeed = 120,
         prefer = "Tokens",
