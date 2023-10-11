@@ -1,0 +1,8 @@
+for i, v in pairs(game:GetService("Workspace").Collectibles:GetChildren()) do
+if v.BackDecal.Texture == "rbxassetid://1471850677" or v.BackDecal.Texture == "rbxassetid://1471849394" then
+for i = 1, 10 do
+game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+wait(.05)
+end
+end
+end
