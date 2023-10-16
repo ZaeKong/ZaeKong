@@ -1,4 +1,3 @@
-wait(2.5)
 for i = 1, 2 do
 for i = 1, 6 do
 game:GetService("ReplicatedStorage").Events.ClaimHive:FireServer(i)
@@ -14,7 +13,8 @@ wait(.01)
 end
 end
 end
-wait(1)
+wait(2.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-114.043594, 1.30161405, 271.535248, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 local args = {
     [1] = 3,
     [2] = 1,
