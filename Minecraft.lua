@@ -27,8 +27,8 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ConstructHiveCellFromEgg"):InvokeServer(unpack(args))
 wait(0.1)
 local args = {
-    [1] = 3,
-    [2] = 2,
+    [1] = 2,
+    [2] = 1,
     [3] = "Gold",
     [4] = 1,
     [5] = false
