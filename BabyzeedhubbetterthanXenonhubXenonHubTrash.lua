@@ -13,7 +13,12 @@ wait(.01)
 end
 end
 end
-wait(0.5)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-114.043594, 1.30161405, 271.535248, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-114.043594, 1.30161405, 271.535248, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-114.043594, 1.30161405, 271.535248, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-114.043594, 1.30161405, 271.535248, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-114.043594, 1.30161405, 271.535248, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-114.043594, 1.30161405, 271.535248, -1, 0, 0, 0, 1, 0, 0, 0, -1)
 wait(2)
 local args = {
@@ -35,3 +40,4 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("ConstructHiveCellFromEgg"):InvokeServer(unpack(args))
+end
