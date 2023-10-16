@@ -14,6 +14,7 @@ wait(.01)
 end
 end
 end
+wait(0.1)
 local args = {
     [1] = 3,
     [2] = 1,
