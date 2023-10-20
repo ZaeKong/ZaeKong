@@ -185,6 +185,14 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
 end)
+Section:NewButton("Red Hq Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Red HQ",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
 local Tab = Window:NewTab("Quest")
 local Section = Tab:NewSection("Quest NPC")
 Section:NewButton("SanjureV_1246", "ButtonInfo", function()
