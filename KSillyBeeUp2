@@ -185,7 +185,7 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
 end)
-Section:NewButton("Mystic Egg Shop", "ButtonInfo", function()
+Section:NewButton("Legendary Egg Shop", "ButtonInfo", function()
 local args = {
     [1] = "Legendary Egg",
     [2] = true
