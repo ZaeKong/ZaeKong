@@ -185,22 +185,6 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
 end)
-Section:NewButton("Legendary Egg Shop", "ButtonInfo", function()
-local args = {
-    [1] = "Legendary Egg",
-    [2] = true
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
-end)
-Section:NewButton("Red Hq Shop", "ButtonInfo", function()
-local args = {
-    [1] = "Red HQ",
-    [2] = true
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
-end)
 local Tab = Window:NewTab("Quest")
 local Section = Tab:NewSection("Quest NPC")
 Section:NewButton("SanjureV_1246", "ButtonInfo", function()
@@ -220,3 +204,118 @@ end)
 Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.M, function()
 	Library:ToggleUI()
 end)
+Section:NewToggle("Red Farm", "ToggleInfo", function(state)
+    if state then
+        _G.auto = true
+while _G.auto do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(639.345458984375, 157.4462890625, -126.67994689941406)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(675.9953002929688, 157.44627380371094, -144.69798278808594)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(677.9632568359375, 157.4462890625, -110.69183349609375)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(589.8516845703125, 157.44627380371094, -145.5859375)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(586.9697265625, 157.44625854492188, -112.32784271240234)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(639.345458984375, 157.4462890625, -126.67994689941406)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(675.9953002929688, 157.44627380371094, -144.69798278808594)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(677.9632568359375, 157.4462890625, -110.69183349609375)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(589.8516845703125, 157.44627380371094, -145.5859375)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(586.9697265625, 157.44625854492188, -112.32784271240234)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1333.53442, 4.17974663, 446.744385, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+print("Finish Farm")
+wait(.1)
+end
+    else
+        _G.auto = false
+while _G.auto do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(635.816162, 158.780457, -128.293884, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait(.1)
+end
+    end
+end)
+Section:NewToggle("White Farm", "ToggleInfo", function(state)
+    if state then
+        _G.auto = true
+while _G.auto do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(623.4459838867188, 157.4462432861328, -43.360286712646484)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(675.3154907226562, 157.4462432861328, -61.17304229736328)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(675.682373046875, 157.4462890625, -30.318588256835938)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(581.7100219726562, 157.4462432861328, -30.58102035522461)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(590.9512939453125, 157.4462432861328, -60.39976501464844)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(623.4459838867188, 157.4462432861328, -43.360286712646484)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(675.3154907226562, 157.4462432861328, -61.17304229736328)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(675.682373046875, 157.4462890625, -30.318588256835938)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(581.7100219726562, 157.4462432861328, -30.58102035522461)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(590.9512939453125, 157.4462432861328, -60.39976501464844)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1333.53442, 4.17974663, 446.744385, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+print("Finish Farm")
+wait(.1)
+end
+    else
+        _G.auto = false
+while _G.auto do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(623.4459838867188, 157.4462432861328, -43.360286712646484)
+wait(.1)
+end
+    end
+end)
+Section:NewToggle("Blue Farm", "ToggleInfo", function(state)
+    if state then
+        _G.auto = true
+while _G.auto do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(627.9122924804688, 157.44625854492188, 34.64231872558594)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(673.5725708007812, 157.44622802734375, 20.79195213317871)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(676.1360473632812, 157.44627380371094, 49.00905990600586)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(582.63720703125, 157.44622802734375, 49.21110916137695)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(585.7919311523438, 157.44622802734375, 13.174630165100098)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(627.9122924804688, 157.44625854492188, 34.64231872558594)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(673.5725708007812, 157.44622802734375, 20.79195213317871)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(676.1360473632812, 157.44627380371094, 49.00905990600586)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(582.63720703125, 157.44622802734375, 49.21110916137695)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(585.7919311523438, 157.44622802734375, 13.174630165100098)
+wait(1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1333.53442, 4.17974663, 446.744385, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+wait(0.1)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+print("Finish Farm")
+wait(.1)
+end
+    else
+        _G.auto = false
+while _G.auto do wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(627.9122924804688, 157.44625854492188, 34.64231872558594)
+wait(.1)
+end
+    end
+end)
+
