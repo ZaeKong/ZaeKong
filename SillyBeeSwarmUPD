@@ -201,3 +201,6 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TalkToNPC"):FireServer(unpack(args))
 end)
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.M, function()
+	Library:ToggleUI()
+end)
