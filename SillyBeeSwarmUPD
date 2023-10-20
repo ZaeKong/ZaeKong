@@ -1,0 +1,203 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Farm", "Synapse")
+local Tab = Window:NewTab("God 1")
+local Section = Tab:NewSection("God Farm")
+Section:NewButton("ClaimHive", "ButtonInfo", function()
+local args = {
+    [1] = workspace:WaitForChild("Hives"):WaitForChild("Hive_1")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("ClaimHive"):FireServer(unpack(args))
+end)
+Section:NewButton("Quest Finish", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1340.71582, 12.6097612, 1201.60486, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+Section:NewButton("Convert All", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1333.53442, 4.17974663, 446.744385, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+Section:NewButton("Dark tools", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1340.87427, 12.6097612, 1190.79443, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+Section:NewButton("MaxHoney", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1339.41577, 12.6098022, 1225.35449, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+Section:NewButton("MaxLevelBees(Risk ban)", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1339.40576, 12.6096802, 1217.97534, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+Section:NewButton("All Items", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1320.92578, 12.6096802, 1182.01526, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+Section:NewButton("Buffs", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1320.37573, 12.6098022, 1174.75537, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+Section:NewButton("Arcanic Tide", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1318.00574, 12.6096802, 1208.07458, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+Section:NewButton("Reset Data", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1317.97571, 12.6096802, 1268.58521, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+    wait(0.1)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1098.72986, -0.430000007, 45.2200356, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+
+local Tab = Window:NewTab("God 2")
+local Section = Tab:NewSection("Teleport Hq")
+Section:NewButton("Red Hq", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(589.804321, 85.4721146, 325.139282, -0.995209217, 0, -0.0977718681, 0, 1, 0, 0.0977718681, 0, -0.995209217)
+end)
+Section:NewButton("Blue Hq", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(946.186584, 5.51212728, -177.525879, 0, 0, 1, 0, 1, -0, -1, 0, 0)
+end)
+Section:NewButton("White Hq", "ButtonInfo", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1122.0116, 41.0821228, 286.790009, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+end)
+local Tab = Window:NewTab("God 3")
+local Section = Tab:NewSection("Shop all")
+Section:NewButton("Royal Jelly", "ButtonInfo", function()
+    local args = {
+    [1] = "Royal Jelly",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+Section:NewButton("Starter Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Starter Shop",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+Section:NewButton("Blue Hq Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Blue HQ",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+Section:NewButton("Treat x1 Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Treat",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Treat x10k Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Treat x10k",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Treat x1m Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Treat x1m",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+
+Section:NewButton("Treat x10m Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Treat x10m",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+Section:NewButton("Basic Egg Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Basic Egg",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+
+end)
+Section:NewButton("Eviction Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Eviction",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+Section:NewButton("Gumdrops Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Gumdrops",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+Section:NewButton("Sprinkler Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Sprinkler Shop",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+Section:NewButton("White HQ Shop", "ButtonInfo", function()
+local args = {
+    [1] = "White HQ",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+Section:NewButton("Ticket Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Ticket",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+
+end)
+Section:NewButton("Mystic Egg Shop", "ButtonInfo", function()
+local args = {
+    [1] = "Mythic Egg",
+    [2] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("OpenShop"):FireServer(unpack(args))
+end)
+local Tab = Window:NewTab("Quest")
+local Section = Tab:NewSection("Quest NPC")
+Section:NewButton("SanjureV_1246", "ButtonInfo", function()
+    local args = {
+    [1] = "SanjureV_1246"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TalkToNPC"):FireServer(unpack(args))
+end)
+Section:NewButton("Black Bear", "ButtonInfo", function()
+local args = {
+    [1] = "Black Bear"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("TalkToNPC"):FireServer(unpack(args))
+end)
