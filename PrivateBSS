@@ -1,6 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Private BSS", "Sentinel")
 local Tab = Window:NewTab("ของขายส่วนตัว")
+local Section = Tab:NewSection("!!!คำเตือน!!!")
 Section:NewLabel("สคิปนี้คือสคิปPrivateคนบางคนเท่านั้นถึงจะใช้ได้")
 Section:NewLabel("ห้ามนำเอาสคิปไปขายต่อหรือแจกใดๆทั้งสิ้น")
 Section:NewButton("วาปไข่", "ฟังชั่นนี้จะนำตัวผู้เล่นวาปไปหาไข่ต่างๆในแมพทั้งหมด", function()
